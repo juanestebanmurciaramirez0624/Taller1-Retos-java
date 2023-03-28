@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Prueba",
+            "request": "launch",
+            "mainClass": "Interfaz.Prueba",
+            "projectName": "Retos_Taller2_140dce98"
+        },
+        {
+            "type": "java",
+            "name": "Prueba(1)",
+            "request": "launch",
+            "mainClass": "Polimorfismo.Prueba",
+            "projectName": "Retos_Taller2_140dce98"
+        },
+        {
+            "type": "java",
+            "name": "Reto1",
+            "request": "launch",
+            "mainClass": "Retos_Taller2.Reto1",
+            "projectName": "Retos_Taller2_140dce98"
+        },
+        {
+            "type": "java",
+            "name": "Reto2",
+            "request": "launch",
+            "mainClass": "Retos_Taller2.Reto2",
+            "projectName": "Retos_Taller2_140dce98"
+        },
+        {
+            "type": "java",
+            "name": "Reto3",
+            "request": "launch",
+            "mainClass": "Retos_Taller2.Reto3",
+            "projectName": "Retos_Taller2_140dce98"
+        },
+        {
+            "type": "java",
+            "name": "Principal",
+            "request": "launch",
+            "mainClass": "Salud.Principal",
+            "projectName": "Retos_Taller2_140dce98"
+        }
+    ]
+}
