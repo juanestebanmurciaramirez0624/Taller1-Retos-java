@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Empleado extends Persona{
     Scanner leer = new Scanner(System.in);
-    public String post;
-    public int valuehours;
-    public int hoursworked;
-    public String department;
-    public double total;
+    private String post;
+    private int valuehours;
+    private int hoursworked;
+    private String department;
+    private double total;
     public Empleado(String post, int valuehours, int hoursworked, String department){
         this.post = post;
         this.valuehours = valuehours;

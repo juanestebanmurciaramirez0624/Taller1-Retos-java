@@ -18,7 +18,7 @@ public class Cuadrado extends Figura{
     @Override // Sobreescribir - Notacion 
     public void calcularArea() { // extends nos permite crear un subclase de una super clase 
     float area = lado*lado;
-    System.out.println("El area del cuadrado de lado"+this.lado+" es igual a "+area);
+    System.out.println("El area del cuadrado de lado "+this.lado+" es igual a "+area);
     } 
 
 }

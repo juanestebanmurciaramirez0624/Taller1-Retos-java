@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class Persona {
     Scanner leer = new Scanner(System.in);
-    public String typeDoc;
-    public int doc;
-    public String name;
-    public String lastname;
-    public int wheit;
-    public double height;
-    public int age;
-    public String gender;
+    private String typeDoc;
+    private int doc;
+    private String name;
+    private String lastname;
+    private int wheit;
+    private double height;
+    private int age;
+    private String gender;
     public Persona(){
     }
     public Persona(String typeDoc, int doc, String name, String lastname, int wheit, double height, int age, String gender){
@@ -81,6 +81,9 @@ public class Persona {
         else if (total > 25) {
             System.out.println("Usted tiene soprepeso");  
         }
+    }
+    public double getIMC(double imc){
+        return imc;
     }
     public void mayorEdad(){
         if (age < 18) {

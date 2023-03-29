@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Rectangulo  extends Figura{
     Scanner leer = new Scanner(System.in);
-
     private float b;
     private float h;
     public float getB(){
